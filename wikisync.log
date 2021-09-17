@@ -1,2 +1,921 @@
-2021-08-31 15:49:51,516 : ERROR : iGEM_login : This iGEM username is invalid.
-2021-08-31 15:49:51,517 : CRITICAL : run : Failed to login.
+2021-09-17 19:15:16,981 : INFO : iGEM_login : Already logged in.
+2021-09-17 19:15:17,215 : INFO : iGEM_URL : css/index.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/indexCSS?action=raw&ctype=text/css in index.html.
+2021-09-17 19:15:17,216 : INFO : iGEM_URL : index.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/index-bundleJS?action=raw&ctype=text/javascript in index.html.
+2021-09-17 19:15:17,217 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in index.html.
+2021-09-17 19:15:17,217 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in index.html.
+2021-09-17 19:15:17,217 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in index.html.
+2021-09-17 19:15:17,218 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in index.html.
+2021-09-17 19:15:17,219 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in index.html.
+2021-09-17 19:15:17,219 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in index.html.
+2021-09-17 19:15:17,220 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in index.html.
+2021-09-17 19:15:17,220 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in index.html.
+2021-09-17 19:15:17,220 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in index.html.
+2021-09-17 19:15:17,221 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in index.html.
+2021-09-17 19:15:17,221 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in index.html.
+2021-09-17 19:15:17,222 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in index.html.
+2021-09-17 19:15:17,222 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in index.html.
+2021-09-17 19:15:17,222 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in index.html.
+2021-09-17 19:15:17,223 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in index.html.
+2021-09-17 19:15:17,223 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in index.html.
+2021-09-17 19:15:17,224 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in index.html.
+2021-09-17 19:15:17,224 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in index.html.
+2021-09-17 19:15:17,225 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in index.html.
+2021-09-17 19:15:17,225 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in index.html.
+2021-09-17 19:15:17,226 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in index.html.
+2021-09-17 19:15:17,227 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in index.html.
+2021-09-17 19:15:17,227 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in index.html.
+2021-09-17 19:15:17,228 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in index.html.
+2021-09-17 19:15:17,228 : INFO : iGEM_URL : Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in index.html.
+2021-09-17 19:15:17,228 : INFO : iGEM_URL : Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in index.html.
+2021-09-17 19:15:17,229 : WARNING : iGEM_URL : dist\Model\index.html is referenced in dist\index.html but was not found.
+2021-09-17 19:15:17,230 : INFO : iGEM_URL : Model was changed to https://2021.igem.org/Team:UNILA_LatAm/Model in index.html.
+2021-09-17 19:15:17,230 : WARNING : iGEM_URL : dist\Human_Practices\index.html is referenced in dist\index.html but was not found.
+2021-09-17 19:15:17,231 : INFO : iGEM_URL : Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Human_Practices in index.html.
+2021-09-17 19:15:17,234 : INFO : iGEM_URL : assets/img/Home--design.jpeg was changed to https://2021.igem.org/wiki/images/7/76/T--UNILA_LatAm--img--Home--design.jpeg in index.html.
+2021-09-17 19:15:17,234 : INFO : iGEM_URL : assets/img/Home--model.jpeg was changed to https://2021.igem.org/wiki/images/c/c4/T--UNILA_LatAm--img--Home--model.jpeg in index.html.
+2021-09-17 19:15:17,235 : INFO : iGEM_URL : assets/img/Home--human-practices.jpg was changed to https://2021.igem.org/wiki/images/6/69/T--UNILA_LatAm--img--Home--human-practices.jpg in index.html.
+2021-09-17 19:15:18,294 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm&action=edit.
+2021-09-17 19:15:18,321 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Attributions\index.html.
+2021-09-17 19:15:18,322 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Attributions\index.html.
+2021-09-17 19:15:18,323 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Attributions\index.html.
+2021-09-17 19:15:18,324 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Attributions\index.html.
+2021-09-17 19:15:18,324 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Attributions\index.html.
+2021-09-17 19:15:18,324 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Attributions\index.html.
+2021-09-17 19:15:18,325 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Attributions\index.html.
+2021-09-17 19:15:18,325 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Attributions\index.html.
+2021-09-17 19:15:18,325 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Attributions\index.html.
+2021-09-17 19:15:18,326 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Attributions\index.html.
+2021-09-17 19:15:18,326 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Attributions\index.html.
+2021-09-17 19:15:18,327 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Attributions\index.html.
+2021-09-17 19:15:18,327 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Attributions\index.html.
+2021-09-17 19:15:18,327 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Attributions\index.html.
+2021-09-17 19:15:18,328 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Attributions\index.html.
+2021-09-17 19:15:18,328 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Attributions\index.html.
+2021-09-17 19:15:18,329 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Attributions\index.html.
+2021-09-17 19:15:18,329 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Attributions\index.html.
+2021-09-17 19:15:18,330 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Attributions\index.html.
+2021-09-17 19:15:18,330 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Attributions\index.html.
+2021-09-17 19:15:18,330 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Attributions\index.html.
+2021-09-17 19:15:18,331 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Attributions\index.html.
+2021-09-17 19:15:18,331 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Attributions\index.html.
+2021-09-17 19:15:18,332 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Attributions\index.html.
+2021-09-17 19:15:18,332 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Attributions\index.html.
+2021-09-17 19:15:18,332 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Attributions\index.html.
+2021-09-17 19:15:18,333 : WARNING : iGEM_URL : dist\Attributions\Link-goes-in-parenthesis\index.html is referenced in dist\Attributions\index.html but was not found.
+2021-09-17 19:15:18,333 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions/Link-goes-in-parenthesis in Attributions\index.html.
+2021-09-17 19:15:18,334 : WARNING : iGEM_URL : dist\Attributions\google.com is referenced in dist\Attributions\index.html but was not found.
+2021-09-17 19:15:18,335 : WARNING : iGEM_URL : google.com is referenced in Attributions\index.html but was not found.
+2021-09-17 19:15:18,341 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Attributions\index.html.
+2021-09-17 19:15:19,256 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Attributions&action=edit.
+2021-09-17 19:15:19,283 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Background\index.html.
+2021-09-17 19:15:19,284 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Background\index.html.
+2021-09-17 19:15:19,285 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Background\index.html.
+2021-09-17 19:15:19,286 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Background\index.html.
+2021-09-17 19:15:19,286 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Background\index.html.
+2021-09-17 19:15:19,287 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Background\index.html.
+2021-09-17 19:15:19,287 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Background\index.html.
+2021-09-17 19:15:19,288 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Background\index.html.
+2021-09-17 19:15:19,288 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Background\index.html.
+2021-09-17 19:15:19,289 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Background\index.html.
+2021-09-17 19:15:19,289 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Background\index.html.
+2021-09-17 19:15:19,290 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Background\index.html.
+2021-09-17 19:15:19,290 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Background\index.html.
+2021-09-17 19:15:19,290 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Background\index.html.
+2021-09-17 19:15:19,291 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Background\index.html.
+2021-09-17 19:15:19,291 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Background\index.html.
+2021-09-17 19:15:19,291 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Background\index.html.
+2021-09-17 19:15:19,292 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Background\index.html.
+2021-09-17 19:15:19,292 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Background\index.html.
+2021-09-17 19:15:19,292 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Background\index.html.
+2021-09-17 19:15:19,293 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Background\index.html.
+2021-09-17 19:15:19,294 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Background\index.html.
+2021-09-17 19:15:19,294 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Background\index.html.
+2021-09-17 19:15:19,294 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Background\index.html.
+2021-09-17 19:15:19,295 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Background\index.html.
+2021-09-17 19:15:19,295 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Background\index.html.
+2021-09-17 19:15:19,296 : WARNING : iGEM_URL : dist\Background\Link-goes-in-parenthesis\index.html is referenced in dist\Background\index.html but was not found.
+2021-09-17 19:15:19,296 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Background/Link-goes-in-parenthesis in Background\index.html.
+2021-09-17 19:15:19,296 : WARNING : iGEM_URL : dist\Background\google.com is referenced in dist\Background\index.html but was not found.
+2021-09-17 19:15:19,297 : WARNING : iGEM_URL : google.com is referenced in Background\index.html but was not found.
+2021-09-17 19:15:19,304 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Background\index.html.
+2021-09-17 19:15:20,200 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Background&action=edit.
+2021-09-17 19:15:20,228 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Collaborations\index.html.
+2021-09-17 19:15:20,229 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Collaborations\index.html.
+2021-09-17 19:15:20,230 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Collaborations\index.html.
+2021-09-17 19:15:20,231 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Collaborations\index.html.
+2021-09-17 19:15:20,231 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Collaborations\index.html.
+2021-09-17 19:15:20,231 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Collaborations\index.html.
+2021-09-17 19:15:20,232 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Collaborations\index.html.
+2021-09-17 19:15:20,232 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Collaborations\index.html.
+2021-09-17 19:15:20,233 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Collaborations\index.html.
+2021-09-17 19:15:20,233 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Collaborations\index.html.
+2021-09-17 19:15:20,234 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Collaborations\index.html.
+2021-09-17 19:15:20,234 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Collaborations\index.html.
+2021-09-17 19:15:20,234 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Collaborations\index.html.
+2021-09-17 19:15:20,235 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Collaborations\index.html.
+2021-09-17 19:15:20,235 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Collaborations\index.html.
+2021-09-17 19:15:20,236 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Collaborations\index.html.
+2021-09-17 19:15:20,236 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Collaborations\index.html.
+2021-09-17 19:15:20,236 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Collaborations\index.html.
+2021-09-17 19:15:20,237 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Collaborations\index.html.
+2021-09-17 19:15:20,237 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Collaborations\index.html.
+2021-09-17 19:15:20,237 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Collaborations\index.html.
+2021-09-17 19:15:20,238 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Collaborations\index.html.
+2021-09-17 19:15:20,238 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Collaborations\index.html.
+2021-09-17 19:15:20,239 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Collaborations\index.html.
+2021-09-17 19:15:20,239 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Collaborations\index.html.
+2021-09-17 19:15:20,239 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Collaborations\index.html.
+2021-09-17 19:15:20,240 : WARNING : iGEM_URL : dist\Collaborations\Link-goes-in-parenthesis\index.html is referenced in dist\Collaborations\index.html but was not found.
+2021-09-17 19:15:20,240 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations/Link-goes-in-parenthesis in Collaborations\index.html.
+2021-09-17 19:15:20,241 : WARNING : iGEM_URL : dist\Collaborations\google.com is referenced in dist\Collaborations\index.html but was not found.
+2021-09-17 19:15:20,241 : WARNING : iGEM_URL : google.com is referenced in Collaborations\index.html but was not found.
+2021-09-17 19:15:20,248 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Collaborations\index.html.
+2021-09-17 19:15:21,142 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Collaborations&action=edit.
+2021-09-17 19:15:21,169 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Demonstrate\index.html.
+2021-09-17 19:15:21,170 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Demonstrate\index.html.
+2021-09-17 19:15:21,171 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Demonstrate\index.html.
+2021-09-17 19:15:21,172 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Demonstrate\index.html.
+2021-09-17 19:15:21,172 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Demonstrate\index.html.
+2021-09-17 19:15:21,172 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Demonstrate\index.html.
+2021-09-17 19:15:21,173 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Demonstrate\index.html.
+2021-09-17 19:15:21,173 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Demonstrate\index.html.
+2021-09-17 19:15:21,174 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Demonstrate\index.html.
+2021-09-17 19:15:21,174 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Demonstrate\index.html.
+2021-09-17 19:15:21,174 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Demonstrate\index.html.
+2021-09-17 19:15:21,175 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Demonstrate\index.html.
+2021-09-17 19:15:21,175 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Demonstrate\index.html.
+2021-09-17 19:15:21,175 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Demonstrate\index.html.
+2021-09-17 19:15:21,176 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Demonstrate\index.html.
+2021-09-17 19:15:21,176 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Demonstrate\index.html.
+2021-09-17 19:15:21,177 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Demonstrate\index.html.
+2021-09-17 19:15:21,177 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Demonstrate\index.html.
+2021-09-17 19:15:21,178 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Demonstrate\index.html.
+2021-09-17 19:15:21,178 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Demonstrate\index.html.
+2021-09-17 19:15:21,179 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Demonstrate\index.html.
+2021-09-17 19:15:21,179 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Demonstrate\index.html.
+2021-09-17 19:15:21,179 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Demonstrate\index.html.
+2021-09-17 19:15:21,180 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Demonstrate\index.html.
+2021-09-17 19:15:21,180 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Demonstrate\index.html.
+2021-09-17 19:15:21,180 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Demonstrate\index.html.
+2021-09-17 19:15:21,181 : WARNING : iGEM_URL : dist\Demonstrate\Link-goes-in-parenthesis\index.html is referenced in dist\Demonstrate\index.html but was not found.
+2021-09-17 19:15:21,181 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate/Link-goes-in-parenthesis in Demonstrate\index.html.
+2021-09-17 19:15:21,182 : WARNING : iGEM_URL : dist\Demonstrate\google.com is referenced in dist\Demonstrate\index.html but was not found.
+2021-09-17 19:15:21,182 : WARNING : iGEM_URL : google.com is referenced in Demonstrate\index.html but was not found.
+2021-09-17 19:15:21,189 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Demonstrate\index.html.
+2021-09-17 19:15:22,066 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Demonstrate&action=edit.
+2021-09-17 19:15:22,094 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Description\index.html.
+2021-09-17 19:15:22,095 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Description\index.html.
+2021-09-17 19:15:22,096 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Description\index.html.
+2021-09-17 19:15:22,096 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Description\index.html.
+2021-09-17 19:15:22,097 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Description\index.html.
+2021-09-17 19:15:22,097 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Description\index.html.
+2021-09-17 19:15:22,097 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Description\index.html.
+2021-09-17 19:15:22,098 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Description\index.html.
+2021-09-17 19:15:22,098 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Description\index.html.
+2021-09-17 19:15:22,098 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Description\index.html.
+2021-09-17 19:15:22,099 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Description\index.html.
+2021-09-17 19:15:22,099 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Description\index.html.
+2021-09-17 19:15:22,100 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Description\index.html.
+2021-09-17 19:15:22,100 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Description\index.html.
+2021-09-17 19:15:22,100 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Description\index.html.
+2021-09-17 19:15:22,101 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Description\index.html.
+2021-09-17 19:15:22,101 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Description\index.html.
+2021-09-17 19:15:22,101 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Description\index.html.
+2021-09-17 19:15:22,102 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Description\index.html.
+2021-09-17 19:15:22,102 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Description\index.html.
+2021-09-17 19:15:22,103 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Description\index.html.
+2021-09-17 19:15:22,103 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Description\index.html.
+2021-09-17 19:15:22,103 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Description\index.html.
+2021-09-17 19:15:22,104 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Description\index.html.
+2021-09-17 19:15:22,105 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Description\index.html.
+2021-09-17 19:15:22,105 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Description\index.html.
+2021-09-17 19:15:22,106 : WARNING : iGEM_URL : dist\Description\Link-goes-in-parenthesis\index.html is referenced in dist\Description\index.html but was not found.
+2021-09-17 19:15:22,106 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Description/Link-goes-in-parenthesis in Description\index.html.
+2021-09-17 19:15:22,106 : WARNING : iGEM_URL : dist\Description\google.com is referenced in dist\Description\index.html but was not found.
+2021-09-17 19:15:22,107 : WARNING : iGEM_URL : google.com is referenced in Description\index.html but was not found.
+2021-09-17 19:15:22,114 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Description\index.html.
+2021-09-17 19:15:23,021 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Description&action=edit.
+2021-09-17 19:15:23,047 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Description1\index.html.
+2021-09-17 19:15:23,048 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Description1\index.html.
+2021-09-17 19:15:23,049 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Description1\index.html.
+2021-09-17 19:15:23,050 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Description1\index.html.
+2021-09-17 19:15:23,050 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Description1\index.html.
+2021-09-17 19:15:23,050 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Description1\index.html.
+2021-09-17 19:15:23,051 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Description1\index.html.
+2021-09-17 19:15:23,051 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Description1\index.html.
+2021-09-17 19:15:23,052 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Description1\index.html.
+2021-09-17 19:15:23,052 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Description1\index.html.
+2021-09-17 19:15:23,052 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Description1\index.html.
+2021-09-17 19:15:23,053 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Description1\index.html.
+2021-09-17 19:15:23,053 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Description1\index.html.
+2021-09-17 19:15:23,054 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Description1\index.html.
+2021-09-17 19:15:23,054 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Description1\index.html.
+2021-09-17 19:15:23,054 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Description1\index.html.
+2021-09-17 19:15:23,055 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Description1\index.html.
+2021-09-17 19:15:23,055 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Description1\index.html.
+2021-09-17 19:15:23,056 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Description1\index.html.
+2021-09-17 19:15:23,056 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Description1\index.html.
+2021-09-17 19:15:23,056 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Description1\index.html.
+2021-09-17 19:15:23,057 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Description1\index.html.
+2021-09-17 19:15:23,057 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Description1\index.html.
+2021-09-17 19:15:23,057 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Description1\index.html.
+2021-09-17 19:15:23,058 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Description1\index.html.
+2021-09-17 19:15:23,058 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Description1\index.html.
+2021-09-17 19:15:23,059 : WARNING : iGEM_URL : dist\Description1\Link-goes-in-parenthesis\index.html is referenced in dist\Description1\index.html but was not found.
+2021-09-17 19:15:23,059 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1/Link-goes-in-parenthesis in Description1\index.html.
+2021-09-17 19:15:23,059 : WARNING : iGEM_URL : dist\Description1\google.com is referenced in dist\Description1\index.html but was not found.
+2021-09-17 19:15:23,060 : WARNING : iGEM_URL : google.com is referenced in Description1\index.html but was not found.
+2021-09-17 19:15:23,066 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Description1\index.html.
+2021-09-17 19:15:23,951 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Description1&action=edit.
+2021-09-17 19:15:23,979 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Design\index.html.
+2021-09-17 19:15:23,980 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Design\index.html.
+2021-09-17 19:15:23,981 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Design\index.html.
+2021-09-17 19:15:23,981 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Design\index.html.
+2021-09-17 19:15:23,981 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Design\index.html.
+2021-09-17 19:15:23,982 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Design\index.html.
+2021-09-17 19:15:23,982 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Design\index.html.
+2021-09-17 19:15:23,983 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Design\index.html.
+2021-09-17 19:15:23,983 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Design\index.html.
+2021-09-17 19:15:23,984 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Design\index.html.
+2021-09-17 19:15:23,984 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Design\index.html.
+2021-09-17 19:15:23,984 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Design\index.html.
+2021-09-17 19:15:23,985 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Design\index.html.
+2021-09-17 19:15:23,985 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Design\index.html.
+2021-09-17 19:15:23,985 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Design\index.html.
+2021-09-17 19:15:23,986 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Design\index.html.
+2021-09-17 19:15:23,986 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Design\index.html.
+2021-09-17 19:15:23,987 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Design\index.html.
+2021-09-17 19:15:23,987 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Design\index.html.
+2021-09-17 19:15:23,987 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Design\index.html.
+2021-09-17 19:15:23,988 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Design\index.html.
+2021-09-17 19:15:23,988 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Design\index.html.
+2021-09-17 19:15:23,988 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Design\index.html.
+2021-09-17 19:15:23,989 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Design\index.html.
+2021-09-17 19:15:23,989 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Design\index.html.
+2021-09-17 19:15:23,990 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Design\index.html.
+2021-09-17 19:15:23,990 : WARNING : iGEM_URL : dist\Design\Link-goes-in-parenthesis\index.html is referenced in dist\Design\index.html but was not found.
+2021-09-17 19:15:23,990 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Design/Link-goes-in-parenthesis in Design\index.html.
+2021-09-17 19:15:23,991 : WARNING : iGEM_URL : dist\Design\google.com is referenced in dist\Design\index.html but was not found.
+2021-09-17 19:15:23,991 : WARNING : iGEM_URL : google.com is referenced in Design\index.html but was not found.
+2021-09-17 19:15:23,998 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Design\index.html.
+2021-09-17 19:15:24,897 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Design&action=edit.
+2021-09-17 19:15:24,924 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Design1\index.html.
+2021-09-17 19:15:24,925 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Design1\index.html.
+2021-09-17 19:15:24,926 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Design1\index.html.
+2021-09-17 19:15:24,926 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Design1\index.html.
+2021-09-17 19:15:24,926 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Design1\index.html.
+2021-09-17 19:15:24,927 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Design1\index.html.
+2021-09-17 19:15:24,927 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Design1\index.html.
+2021-09-17 19:15:24,928 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Design1\index.html.
+2021-09-17 19:15:24,928 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Design1\index.html.
+2021-09-17 19:15:24,928 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Design1\index.html.
+2021-09-17 19:15:24,929 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Design1\index.html.
+2021-09-17 19:15:24,929 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Design1\index.html.
+2021-09-17 19:15:24,930 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Design1\index.html.
+2021-09-17 19:15:24,930 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Design1\index.html.
+2021-09-17 19:15:24,930 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Design1\index.html.
+2021-09-17 19:15:24,931 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Design1\index.html.
+2021-09-17 19:15:24,931 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Design1\index.html.
+2021-09-17 19:15:24,931 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Design1\index.html.
+2021-09-17 19:15:24,932 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Design1\index.html.
+2021-09-17 19:15:24,932 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Design1\index.html.
+2021-09-17 19:15:24,932 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Design1\index.html.
+2021-09-17 19:15:24,933 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Design1\index.html.
+2021-09-17 19:15:24,933 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Design1\index.html.
+2021-09-17 19:15:24,934 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Design1\index.html.
+2021-09-17 19:15:24,934 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Design1\index.html.
+2021-09-17 19:15:24,935 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Design1\index.html.
+2021-09-17 19:15:24,935 : WARNING : iGEM_URL : dist\Design1\Link-goes-in-parenthesis\index.html is referenced in dist\Design1\index.html but was not found.
+2021-09-17 19:15:24,935 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1/Link-goes-in-parenthesis in Design1\index.html.
+2021-09-17 19:15:24,936 : WARNING : iGEM_URL : dist\Design1\google.com is referenced in dist\Design1\index.html but was not found.
+2021-09-17 19:15:24,937 : WARNING : iGEM_URL : google.com is referenced in Design1\index.html but was not found.
+2021-09-17 19:15:24,943 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Design1\index.html.
+2021-09-17 19:15:25,843 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Design1&action=edit.
+2021-09-17 19:15:25,859 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in DryLab\index.html.
+2021-09-17 19:15:25,860 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in DryLab\index.html.
+2021-09-17 19:15:25,860 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in DryLab\index.html.
+2021-09-17 19:15:25,861 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in DryLab\index.html.
+2021-09-17 19:15:25,861 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in DryLab\index.html.
+2021-09-17 19:15:25,861 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in DryLab\index.html.
+2021-09-17 19:15:25,862 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in DryLab\index.html.
+2021-09-17 19:15:25,862 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in DryLab\index.html.
+2021-09-17 19:15:25,863 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in DryLab\index.html.
+2021-09-17 19:15:25,863 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in DryLab\index.html.
+2021-09-17 19:15:25,863 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in DryLab\index.html.
+2021-09-17 19:15:25,864 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in DryLab\index.html.
+2021-09-17 19:15:25,864 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in DryLab\index.html.
+2021-09-17 19:15:25,865 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in DryLab\index.html.
+2021-09-17 19:15:25,865 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in DryLab\index.html.
+2021-09-17 19:15:25,866 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in DryLab\index.html.
+2021-09-17 19:15:25,866 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in DryLab\index.html.
+2021-09-17 19:15:25,866 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in DryLab\index.html.
+2021-09-17 19:15:25,867 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in DryLab\index.html.
+2021-09-17 19:15:25,867 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in DryLab\index.html.
+2021-09-17 19:15:25,867 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in DryLab\index.html.
+2021-09-17 19:15:25,868 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in DryLab\index.html.
+2021-09-17 19:15:25,868 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in DryLab\index.html.
+2021-09-17 19:15:25,869 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in DryLab\index.html.
+2021-09-17 19:15:25,869 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in DryLab\index.html.
+2021-09-17 19:15:25,869 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in DryLab\index.html.
+2021-09-17 19:15:25,872 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in DryLab\index.html.
+2021-09-17 19:15:26,761 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/DryLab&action=edit.
+2021-09-17 19:15:26,787 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,788 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,789 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,790 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,790 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,791 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,791 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,791 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,792 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,792 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,793 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,793 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,793 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,794 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,794 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,795 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,795 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,795 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,796 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,796 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,796 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,797 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,797 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,798 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,798 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,798 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,799 : WARNING : iGEM_URL : dist\Education_&_Public_Engagement\Link-goes-in-parenthesis\index.html is referenced in dist\Education_&_Public_Engagement\index.html but was not found.
+2021-09-17 19:15:26,799 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement/Link-goes-in-parenthesis in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:26,800 : WARNING : iGEM_URL : dist\Education_&_Public_Engagement\google.com is referenced in dist\Education_&_Public_Engagement\index.html but was not found.
+2021-09-17 19:15:26,800 : WARNING : iGEM_URL : google.com is referenced in Education_&_Public_Engagement\index.html but was not found.
+2021-09-17 19:15:26,807 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Education_&_Public_Engagement\index.html.
+2021-09-17 19:15:27,688 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Education_&_Public_Engagement&action=edit.
+2021-09-17 19:15:27,714 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,715 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,716 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,716 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,716 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,717 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,717 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,718 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,718 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,718 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,719 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,719 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,719 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,720 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,721 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,721 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,722 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,722 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,722 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,723 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,723 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,724 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,724 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,724 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,725 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,725 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,726 : WARNING : iGEM_URL : dist\Fighting_Underreporting\Link-goes-in-parenthesis\index.html is referenced in dist\Fighting_Underreporting\index.html but was not found.
+2021-09-17 19:15:27,726 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting/Link-goes-in-parenthesis in Fighting_Underreporting\index.html.
+2021-09-17 19:15:27,727 : WARNING : iGEM_URL : dist\Fighting_Underreporting\google.com is referenced in dist\Fighting_Underreporting\index.html but was not found.
+2021-09-17 19:15:27,727 : WARNING : iGEM_URL : google.com is referenced in Fighting_Underreporting\index.html but was not found.
+2021-09-17 19:15:27,733 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Fighting_Underreporting\index.html.
+2021-09-17 19:15:28,619 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Fighting_Underreporting&action=edit.
+2021-09-17 19:15:28,645 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Funding\index.html.
+2021-09-17 19:15:28,646 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Funding\index.html.
+2021-09-17 19:15:28,647 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Funding\index.html.
+2021-09-17 19:15:28,647 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Funding\index.html.
+2021-09-17 19:15:28,648 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Funding\index.html.
+2021-09-17 19:15:28,649 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Funding\index.html.
+2021-09-17 19:15:28,649 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Funding\index.html.
+2021-09-17 19:15:28,649 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Funding\index.html.
+2021-09-17 19:15:28,650 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Funding\index.html.
+2021-09-17 19:15:28,650 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Funding\index.html.
+2021-09-17 19:15:28,651 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Funding\index.html.
+2021-09-17 19:15:28,651 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Funding\index.html.
+2021-09-17 19:15:28,651 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Funding\index.html.
+2021-09-17 19:15:28,652 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Funding\index.html.
+2021-09-17 19:15:28,652 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Funding\index.html.
+2021-09-17 19:15:28,652 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Funding\index.html.
+2021-09-17 19:15:28,653 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Funding\index.html.
+2021-09-17 19:15:28,653 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Funding\index.html.
+2021-09-17 19:15:28,654 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Funding\index.html.
+2021-09-17 19:15:28,654 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Funding\index.html.
+2021-09-17 19:15:28,655 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Funding\index.html.
+2021-09-17 19:15:28,655 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Funding\index.html.
+2021-09-17 19:15:28,655 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Funding\index.html.
+2021-09-17 19:15:28,656 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Funding\index.html.
+2021-09-17 19:15:28,656 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Funding\index.html.
+2021-09-17 19:15:28,657 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Funding\index.html.
+2021-09-17 19:15:28,657 : WARNING : iGEM_URL : dist\Funding\Link-goes-in-parenthesis\index.html is referenced in dist\Funding\index.html but was not found.
+2021-09-17 19:15:28,657 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding/Link-goes-in-parenthesis in Funding\index.html.
+2021-09-17 19:15:28,658 : WARNING : iGEM_URL : dist\Funding\google.com is referenced in dist\Funding\index.html but was not found.
+2021-09-17 19:15:28,658 : WARNING : iGEM_URL : google.com is referenced in Funding\index.html but was not found.
+2021-09-17 19:15:28,665 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Funding\index.html.
+2021-09-17 19:15:29,574 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Funding&action=edit.
+2021-09-17 19:15:29,602 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Implementation\index.html.
+2021-09-17 19:15:29,603 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Implementation\index.html.
+2021-09-17 19:15:29,605 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Implementation\index.html.
+2021-09-17 19:15:29,605 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Implementation\index.html.
+2021-09-17 19:15:29,605 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Implementation\index.html.
+2021-09-17 19:15:29,606 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Implementation\index.html.
+2021-09-17 19:15:29,606 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Implementation\index.html.
+2021-09-17 19:15:29,607 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Implementation\index.html.
+2021-09-17 19:15:29,607 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Implementation\index.html.
+2021-09-17 19:15:29,608 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Implementation\index.html.
+2021-09-17 19:15:29,608 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Implementation\index.html.
+2021-09-17 19:15:29,608 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Implementation\index.html.
+2021-09-17 19:15:29,609 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Implementation\index.html.
+2021-09-17 19:15:29,609 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Implementation\index.html.
+2021-09-17 19:15:29,610 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Implementation\index.html.
+2021-09-17 19:15:29,610 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Implementation\index.html.
+2021-09-17 19:15:29,610 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Implementation\index.html.
+2021-09-17 19:15:29,611 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Implementation\index.html.
+2021-09-17 19:15:29,611 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Implementation\index.html.
+2021-09-17 19:15:29,611 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Implementation\index.html.
+2021-09-17 19:15:29,612 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Implementation\index.html.
+2021-09-17 19:15:29,613 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Implementation\index.html.
+2021-09-17 19:15:29,613 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Implementation\index.html.
+2021-09-17 19:15:29,614 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Implementation\index.html.
+2021-09-17 19:15:29,614 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Implementation\index.html.
+2021-09-17 19:15:29,614 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Implementation\index.html.
+2021-09-17 19:15:29,615 : WARNING : iGEM_URL : dist\Implementation\Link-goes-in-parenthesis\index.html is referenced in dist\Implementation\index.html but was not found.
+2021-09-17 19:15:29,615 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation/Link-goes-in-parenthesis in Implementation\index.html.
+2021-09-17 19:15:29,616 : WARNING : iGEM_URL : dist\Implementation\google.com is referenced in dist\Implementation\index.html but was not found.
+2021-09-17 19:15:29,616 : WARNING : iGEM_URL : google.com is referenced in Implementation\index.html but was not found.
+2021-09-17 19:15:29,623 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Implementation\index.html.
+2021-09-17 19:15:31,537 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Implementation&action=edit.
+2021-09-17 19:15:31,551 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,552 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,552 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,553 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,553 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,554 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,554 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,555 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,555 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,556 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,556 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,556 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,557 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,557 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,558 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,558 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,558 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,559 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,559 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,559 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,560 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,560 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,561 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,561 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,561 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,562 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:31,565 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Integrated_Human_Practices\index.html.
+2021-09-17 19:15:34,597 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Integrated_Human_Practices&action=edit.
+2021-09-17 19:15:34,624 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Medal_criteria\index.html.
+2021-09-17 19:15:34,625 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Medal_criteria\index.html.
+2021-09-17 19:15:34,626 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Medal_criteria\index.html.
+2021-09-17 19:15:34,626 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Medal_criteria\index.html.
+2021-09-17 19:15:34,627 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Medal_criteria\index.html.
+2021-09-17 19:15:34,627 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Medal_criteria\index.html.
+2021-09-17 19:15:34,627 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Medal_criteria\index.html.
+2021-09-17 19:15:34,628 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Medal_criteria\index.html.
+2021-09-17 19:15:34,628 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Medal_criteria\index.html.
+2021-09-17 19:15:34,628 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Medal_criteria\index.html.
+2021-09-17 19:15:34,629 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Medal_criteria\index.html.
+2021-09-17 19:15:34,629 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Medal_criteria\index.html.
+2021-09-17 19:15:34,630 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Medal_criteria\index.html.
+2021-09-17 19:15:34,630 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Medal_criteria\index.html.
+2021-09-17 19:15:34,631 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Medal_criteria\index.html.
+2021-09-17 19:15:34,631 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Medal_criteria\index.html.
+2021-09-17 19:15:34,631 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Medal_criteria\index.html.
+2021-09-17 19:15:34,632 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Medal_criteria\index.html.
+2021-09-17 19:15:34,632 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Medal_criteria\index.html.
+2021-09-17 19:15:34,633 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Medal_criteria\index.html.
+2021-09-17 19:15:34,633 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Medal_criteria\index.html.
+2021-09-17 19:15:34,634 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Medal_criteria\index.html.
+2021-09-17 19:15:34,634 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Medal_criteria\index.html.
+2021-09-17 19:15:34,635 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Medal_criteria\index.html.
+2021-09-17 19:15:34,635 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Medal_criteria\index.html.
+2021-09-17 19:15:34,635 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Medal_criteria\index.html.
+2021-09-17 19:15:34,636 : WARNING : iGEM_URL : dist\Medal_criteria\Link-goes-in-parenthesis\index.html is referenced in dist\Medal_criteria\index.html but was not found.
+2021-09-17 19:15:34,636 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria/Link-goes-in-parenthesis in Medal_criteria\index.html.
+2021-09-17 19:15:34,637 : WARNING : iGEM_URL : dist\Medal_criteria\google.com is referenced in dist\Medal_criteria\index.html but was not found.
+2021-09-17 19:15:34,637 : WARNING : iGEM_URL : google.com is referenced in Medal_criteria\index.html but was not found.
+2021-09-17 19:15:34,644 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Medal_criteria\index.html.
+2021-09-17 19:15:35,541 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Medal_criteria&action=edit.
+2021-09-17 19:15:35,556 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Modeling\index.html.
+2021-09-17 19:15:35,557 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Modeling\index.html.
+2021-09-17 19:15:35,557 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Modeling\index.html.
+2021-09-17 19:15:35,558 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Modeling\index.html.
+2021-09-17 19:15:35,558 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Modeling\index.html.
+2021-09-17 19:15:35,558 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Modeling\index.html.
+2021-09-17 19:15:35,559 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Modeling\index.html.
+2021-09-17 19:15:35,559 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Modeling\index.html.
+2021-09-17 19:15:35,560 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Modeling\index.html.
+2021-09-17 19:15:35,560 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Modeling\index.html.
+2021-09-17 19:15:35,561 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Modeling\index.html.
+2021-09-17 19:15:35,561 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Modeling\index.html.
+2021-09-17 19:15:35,561 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Modeling\index.html.
+2021-09-17 19:15:35,562 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Modeling\index.html.
+2021-09-17 19:15:35,562 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Modeling\index.html.
+2021-09-17 19:15:35,563 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Modeling\index.html.
+2021-09-17 19:15:35,563 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Modeling\index.html.
+2021-09-17 19:15:35,564 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Modeling\index.html.
+2021-09-17 19:15:35,564 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Modeling\index.html.
+2021-09-17 19:15:35,564 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Modeling\index.html.
+2021-09-17 19:15:35,565 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Modeling\index.html.
+2021-09-17 19:15:35,565 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Modeling\index.html.
+2021-09-17 19:15:35,566 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Modeling\index.html.
+2021-09-17 19:15:35,566 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Modeling\index.html.
+2021-09-17 19:15:35,566 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Modeling\index.html.
+2021-09-17 19:15:35,567 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Modeling\index.html.
+2021-09-17 19:15:35,569 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Modeling\index.html.
+2021-09-17 19:15:36,466 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Modeling&action=edit.
+2021-09-17 19:15:36,492 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Notebook\index.html.
+2021-09-17 19:15:36,493 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Notebook\index.html.
+2021-09-17 19:15:36,494 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Notebook\index.html.
+2021-09-17 19:15:36,495 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Notebook\index.html.
+2021-09-17 19:15:36,495 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Notebook\index.html.
+2021-09-17 19:15:36,495 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Notebook\index.html.
+2021-09-17 19:15:36,496 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Notebook\index.html.
+2021-09-17 19:15:36,496 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Notebook\index.html.
+2021-09-17 19:15:36,497 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Notebook\index.html.
+2021-09-17 19:15:36,497 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Notebook\index.html.
+2021-09-17 19:15:36,498 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Notebook\index.html.
+2021-09-17 19:15:36,498 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Notebook\index.html.
+2021-09-17 19:15:36,498 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Notebook\index.html.
+2021-09-17 19:15:36,499 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Notebook\index.html.
+2021-09-17 19:15:36,499 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Notebook\index.html.
+2021-09-17 19:15:36,499 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Notebook\index.html.
+2021-09-17 19:15:36,500 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Notebook\index.html.
+2021-09-17 19:15:36,500 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Notebook\index.html.
+2021-09-17 19:15:36,501 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Notebook\index.html.
+2021-09-17 19:15:36,501 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Notebook\index.html.
+2021-09-17 19:15:36,501 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Notebook\index.html.
+2021-09-17 19:15:36,502 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Notebook\index.html.
+2021-09-17 19:15:36,502 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Notebook\index.html.
+2021-09-17 19:15:36,502 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Notebook\index.html.
+2021-09-17 19:15:36,503 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Notebook\index.html.
+2021-09-17 19:15:36,503 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Notebook\index.html.
+2021-09-17 19:15:36,504 : WARNING : iGEM_URL : dist\Notebook\Link-goes-in-parenthesis\index.html is referenced in dist\Notebook\index.html but was not found.
+2021-09-17 19:15:36,504 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook/Link-goes-in-parenthesis in Notebook\index.html.
+2021-09-17 19:15:36,505 : WARNING : iGEM_URL : dist\Notebook\google.com is referenced in dist\Notebook\index.html but was not found.
+2021-09-17 19:15:36,506 : WARNING : iGEM_URL : google.com is referenced in Notebook\index.html but was not found.
+2021-09-17 19:15:36,511 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Notebook\index.html.
+2021-09-17 19:15:37,400 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Notebook&action=edit.
+2021-09-17 19:15:37,427 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Paratransgenesis\index.html.
+2021-09-17 19:15:37,428 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Paratransgenesis\index.html.
+2021-09-17 19:15:37,429 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Paratransgenesis\index.html.
+2021-09-17 19:15:37,429 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Paratransgenesis\index.html.
+2021-09-17 19:15:37,430 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Paratransgenesis\index.html.
+2021-09-17 19:15:37,430 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Paratransgenesis\index.html.
+2021-09-17 19:15:37,431 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Paratransgenesis\index.html.
+2021-09-17 19:15:37,431 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Paratransgenesis\index.html.
+2021-09-17 19:15:37,432 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Paratransgenesis\index.html.
+2021-09-17 19:15:37,432 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Paratransgenesis\index.html.
+2021-09-17 19:15:37,433 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Paratransgenesis\index.html.
+2021-09-17 19:15:37,433 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Paratransgenesis\index.html.
+2021-09-17 19:15:37,434 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Paratransgenesis\index.html.
+2021-09-17 19:15:37,434 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Paratransgenesis\index.html.
+2021-09-17 19:15:37,434 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Paratransgenesis\index.html.
+2021-09-17 19:15:37,435 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Paratransgenesis\index.html.
+2021-09-17 19:15:37,435 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Paratransgenesis\index.html.
+2021-09-17 19:15:37,436 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Paratransgenesis\index.html.
+2021-09-17 19:15:37,436 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Paratransgenesis\index.html.
+2021-09-17 19:15:37,436 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Paratransgenesis\index.html.
+2021-09-17 19:15:37,437 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Paratransgenesis\index.html.
+2021-09-17 19:15:37,437 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Paratransgenesis\index.html.
+2021-09-17 19:15:37,437 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Paratransgenesis\index.html.
+2021-09-17 19:15:37,438 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Paratransgenesis\index.html.
+2021-09-17 19:15:37,438 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Paratransgenesis\index.html.
+2021-09-17 19:15:37,439 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Paratransgenesis\index.html.
+2021-09-17 19:15:37,440 : WARNING : iGEM_URL : dist\Paratransgenesis\Link-goes-in-parenthesis\index.html is referenced in dist\Paratransgenesis\index.html but was not found.
+2021-09-17 19:15:37,440 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis/Link-goes-in-parenthesis in Paratransgenesis\index.html.
+2021-09-17 19:15:37,440 : WARNING : iGEM_URL : dist\Paratransgenesis\google.com is referenced in dist\Paratransgenesis\index.html but was not found.
+2021-09-17 19:15:37,441 : WARNING : iGEM_URL : google.com is referenced in Paratransgenesis\index.html but was not found.
+2021-09-17 19:15:37,447 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Paratransgenesis\index.html.
+2021-09-17 19:15:38,348 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Paratransgenesis&action=edit.
+2021-09-17 19:15:38,374 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Parts\index.html.
+2021-09-17 19:15:38,375 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Parts\index.html.
+2021-09-17 19:15:38,376 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Parts\index.html.
+2021-09-17 19:15:38,377 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Parts\index.html.
+2021-09-17 19:15:38,377 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Parts\index.html.
+2021-09-17 19:15:38,377 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Parts\index.html.
+2021-09-17 19:15:38,378 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Parts\index.html.
+2021-09-17 19:15:38,378 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Parts\index.html.
+2021-09-17 19:15:38,378 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Parts\index.html.
+2021-09-17 19:15:38,379 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Parts\index.html.
+2021-09-17 19:15:38,379 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Parts\index.html.
+2021-09-17 19:15:38,380 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Parts\index.html.
+2021-09-17 19:15:38,380 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Parts\index.html.
+2021-09-17 19:15:38,381 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Parts\index.html.
+2021-09-17 19:15:38,381 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Parts\index.html.
+2021-09-17 19:15:38,381 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Parts\index.html.
+2021-09-17 19:15:38,382 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Parts\index.html.
+2021-09-17 19:15:38,382 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Parts\index.html.
+2021-09-17 19:15:38,382 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Parts\index.html.
+2021-09-17 19:15:38,383 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Parts\index.html.
+2021-09-17 19:15:38,383 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Parts\index.html.
+2021-09-17 19:15:38,384 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Parts\index.html.
+2021-09-17 19:15:38,384 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Parts\index.html.
+2021-09-17 19:15:38,384 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Parts\index.html.
+2021-09-17 19:15:38,385 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Parts\index.html.
+2021-09-17 19:15:38,385 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Parts\index.html.
+2021-09-17 19:15:38,386 : WARNING : iGEM_URL : dist\Parts\Link-goes-in-parenthesis\index.html is referenced in dist\Parts\index.html but was not found.
+2021-09-17 19:15:38,386 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts/Link-goes-in-parenthesis in Parts\index.html.
+2021-09-17 19:15:38,386 : WARNING : iGEM_URL : dist\Parts\google.com is referenced in dist\Parts\index.html but was not found.
+2021-09-17 19:15:38,387 : WARNING : iGEM_URL : google.com is referenced in Parts\index.html but was not found.
+2021-09-17 19:15:38,394 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Parts\index.html.
+2021-09-17 19:15:39,309 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Parts&action=edit.
+2021-09-17 19:15:39,335 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Protocols\index.html.
+2021-09-17 19:15:39,336 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Protocols\index.html.
+2021-09-17 19:15:39,337 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Protocols\index.html.
+2021-09-17 19:15:39,338 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Protocols\index.html.
+2021-09-17 19:15:39,338 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Protocols\index.html.
+2021-09-17 19:15:39,339 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Protocols\index.html.
+2021-09-17 19:15:39,339 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Protocols\index.html.
+2021-09-17 19:15:39,339 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Protocols\index.html.
+2021-09-17 19:15:39,340 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Protocols\index.html.
+2021-09-17 19:15:39,340 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Protocols\index.html.
+2021-09-17 19:15:39,340 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Protocols\index.html.
+2021-09-17 19:15:39,341 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Protocols\index.html.
+2021-09-17 19:15:39,341 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Protocols\index.html.
+2021-09-17 19:15:39,342 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Protocols\index.html.
+2021-09-17 19:15:39,342 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Protocols\index.html.
+2021-09-17 19:15:39,342 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Protocols\index.html.
+2021-09-17 19:15:39,343 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Protocols\index.html.
+2021-09-17 19:15:39,343 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Protocols\index.html.
+2021-09-17 19:15:39,344 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Protocols\index.html.
+2021-09-17 19:15:39,344 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Protocols\index.html.
+2021-09-17 19:15:39,344 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Protocols\index.html.
+2021-09-17 19:15:39,345 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Protocols\index.html.
+2021-09-17 19:15:39,345 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Protocols\index.html.
+2021-09-17 19:15:39,346 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Protocols\index.html.
+2021-09-17 19:15:39,346 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Protocols\index.html.
+2021-09-17 19:15:39,347 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Protocols\index.html.
+2021-09-17 19:15:39,347 : WARNING : iGEM_URL : dist\Protocols\Link-goes-in-parenthesis\index.html is referenced in dist\Protocols\index.html but was not found.
+2021-09-17 19:15:39,347 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols/Link-goes-in-parenthesis in Protocols\index.html.
+2021-09-17 19:15:39,348 : WARNING : iGEM_URL : dist\Protocols\google.com is referenced in dist\Protocols\index.html but was not found.
+2021-09-17 19:15:39,348 : WARNING : iGEM_URL : google.com is referenced in Protocols\index.html but was not found.
+2021-09-17 19:15:39,355 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Protocols\index.html.
+2021-09-17 19:15:40,263 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Protocols&action=edit.
+2021-09-17 19:15:40,289 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Safety\index.html.
+2021-09-17 19:15:40,290 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Safety\index.html.
+2021-09-17 19:15:40,291 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Safety\index.html.
+2021-09-17 19:15:40,292 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Safety\index.html.
+2021-09-17 19:15:40,292 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Safety\index.html.
+2021-09-17 19:15:40,292 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Safety\index.html.
+2021-09-17 19:15:40,293 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Safety\index.html.
+2021-09-17 19:15:40,293 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Safety\index.html.
+2021-09-17 19:15:40,294 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Safety\index.html.
+2021-09-17 19:15:40,294 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Safety\index.html.
+2021-09-17 19:15:40,294 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Safety\index.html.
+2021-09-17 19:15:40,295 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Safety\index.html.
+2021-09-17 19:15:40,295 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Safety\index.html.
+2021-09-17 19:15:40,295 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Safety\index.html.
+2021-09-17 19:15:40,296 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Safety\index.html.
+2021-09-17 19:15:40,297 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Safety\index.html.
+2021-09-17 19:15:40,297 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Safety\index.html.
+2021-09-17 19:15:40,298 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Safety\index.html.
+2021-09-17 19:15:40,298 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Safety\index.html.
+2021-09-17 19:15:40,298 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Safety\index.html.
+2021-09-17 19:15:40,299 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Safety\index.html.
+2021-09-17 19:15:40,299 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Safety\index.html.
+2021-09-17 19:15:40,299 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Safety\index.html.
+2021-09-17 19:15:40,300 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Safety\index.html.
+2021-09-17 19:15:40,300 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Safety\index.html.
+2021-09-17 19:15:40,301 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Safety\index.html.
+2021-09-17 19:15:40,301 : WARNING : iGEM_URL : dist\Safety\Link-goes-in-parenthesis\index.html is referenced in dist\Safety\index.html but was not found.
+2021-09-17 19:15:40,301 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety/Link-goes-in-parenthesis in Safety\index.html.
+2021-09-17 19:15:40,302 : WARNING : iGEM_URL : dist\Safety\google.com is referenced in dist\Safety\index.html but was not found.
+2021-09-17 19:15:40,302 : WARNING : iGEM_URL : google.com is referenced in Safety\index.html but was not found.
+2021-09-17 19:15:40,309 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Safety\index.html.
+2021-09-17 19:15:41,241 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Safety&action=edit.
+2021-09-17 19:15:41,267 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Sample\index.html.
+2021-09-17 19:15:41,268 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Sample\index.html.
+2021-09-17 19:15:41,269 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Sample\index.html.
+2021-09-17 19:15:41,269 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Sample\index.html.
+2021-09-17 19:15:41,269 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Sample\index.html.
+2021-09-17 19:15:41,270 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Sample\index.html.
+2021-09-17 19:15:41,270 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Sample\index.html.
+2021-09-17 19:15:41,270 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Sample\index.html.
+2021-09-17 19:15:41,271 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Sample\index.html.
+2021-09-17 19:15:41,271 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Sample\index.html.
+2021-09-17 19:15:41,271 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Sample\index.html.
+2021-09-17 19:15:41,272 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Sample\index.html.
+2021-09-17 19:15:41,273 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Sample\index.html.
+2021-09-17 19:15:41,273 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Sample\index.html.
+2021-09-17 19:15:41,274 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Sample\index.html.
+2021-09-17 19:15:41,274 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Sample\index.html.
+2021-09-17 19:15:41,275 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Sample\index.html.
+2021-09-17 19:15:41,275 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Sample\index.html.
+2021-09-17 19:15:41,275 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Sample\index.html.
+2021-09-17 19:15:41,276 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Sample\index.html.
+2021-09-17 19:15:41,276 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Sample\index.html.
+2021-09-17 19:15:41,276 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Sample\index.html.
+2021-09-17 19:15:41,277 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Sample\index.html.
+2021-09-17 19:15:41,277 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Sample\index.html.
+2021-09-17 19:15:41,277 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Sample\index.html.
+2021-09-17 19:15:41,278 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Sample\index.html.
+2021-09-17 19:15:41,278 : WARNING : iGEM_URL : dist\Sample\Link-goes-in-parenthesis\index.html is referenced in dist\Sample\index.html but was not found.
+2021-09-17 19:15:41,279 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Sample/Link-goes-in-parenthesis in Sample\index.html.
+2021-09-17 19:15:41,279 : WARNING : iGEM_URL : dist\Sample\google.com is referenced in dist\Sample\index.html but was not found.
+2021-09-17 19:15:41,280 : WARNING : iGEM_URL : google.com is referenced in Sample\index.html but was not found.
+2021-09-17 19:15:41,286 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Sample\index.html.
+2021-09-17 19:15:42,331 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Sample&action=edit.
+2021-09-17 19:15:42,345 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Special_prizes\index.html.
+2021-09-17 19:15:42,346 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Special_prizes\index.html.
+2021-09-17 19:15:42,347 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Special_prizes\index.html.
+2021-09-17 19:15:42,347 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Special_prizes\index.html.
+2021-09-17 19:15:42,348 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Special_prizes\index.html.
+2021-09-17 19:15:42,348 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Special_prizes\index.html.
+2021-09-17 19:15:42,348 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Special_prizes\index.html.
+2021-09-17 19:15:42,349 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Special_prizes\index.html.
+2021-09-17 19:15:42,349 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Special_prizes\index.html.
+2021-09-17 19:15:42,350 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Special_prizes\index.html.
+2021-09-17 19:15:42,350 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Special_prizes\index.html.
+2021-09-17 19:15:42,350 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Special_prizes\index.html.
+2021-09-17 19:15:42,351 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Special_prizes\index.html.
+2021-09-17 19:15:42,351 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Special_prizes\index.html.
+2021-09-17 19:15:42,351 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Special_prizes\index.html.
+2021-09-17 19:15:42,352 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Special_prizes\index.html.
+2021-09-17 19:15:42,352 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Special_prizes\index.html.
+2021-09-17 19:15:42,352 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Special_prizes\index.html.
+2021-09-17 19:15:42,353 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Special_prizes\index.html.
+2021-09-17 19:15:42,353 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Special_prizes\index.html.
+2021-09-17 19:15:42,354 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Special_prizes\index.html.
+2021-09-17 19:15:42,354 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Special_prizes\index.html.
+2021-09-17 19:15:42,354 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Special_prizes\index.html.
+2021-09-17 19:15:42,355 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Special_prizes\index.html.
+2021-09-17 19:15:42,355 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Special_prizes\index.html.
+2021-09-17 19:15:42,356 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Special_prizes\index.html.
+2021-09-17 19:15:42,359 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Special_prizes\index.html.
+2021-09-17 19:15:43,257 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Special_prizes&action=edit.
+2021-09-17 19:15:43,284 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Sponsors\index.html.
+2021-09-17 19:15:43,285 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Sponsors\index.html.
+2021-09-17 19:15:43,286 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Sponsors\index.html.
+2021-09-17 19:15:43,286 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Sponsors\index.html.
+2021-09-17 19:15:43,287 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Sponsors\index.html.
+2021-09-17 19:15:43,287 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Sponsors\index.html.
+2021-09-17 19:15:43,288 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Sponsors\index.html.
+2021-09-17 19:15:43,288 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Sponsors\index.html.
+2021-09-17 19:15:43,288 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Sponsors\index.html.
+2021-09-17 19:15:43,289 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Sponsors\index.html.
+2021-09-17 19:15:43,290 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Sponsors\index.html.
+2021-09-17 19:15:43,290 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Sponsors\index.html.
+2021-09-17 19:15:43,290 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Sponsors\index.html.
+2021-09-17 19:15:43,291 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Sponsors\index.html.
+2021-09-17 19:15:43,291 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Sponsors\index.html.
+2021-09-17 19:15:43,291 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Sponsors\index.html.
+2021-09-17 19:15:43,292 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Sponsors\index.html.
+2021-09-17 19:15:43,292 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Sponsors\index.html.
+2021-09-17 19:15:43,292 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Sponsors\index.html.
+2021-09-17 19:15:43,293 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Sponsors\index.html.
+2021-09-17 19:15:43,293 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Sponsors\index.html.
+2021-09-17 19:15:43,294 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Sponsors\index.html.
+2021-09-17 19:15:43,294 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Sponsors\index.html.
+2021-09-17 19:15:43,294 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Sponsors\index.html.
+2021-09-17 19:15:43,295 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Sponsors\index.html.
+2021-09-17 19:15:43,295 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Sponsors\index.html.
+2021-09-17 19:15:43,295 : WARNING : iGEM_URL : dist\Sponsors\Link-goes-in-parenthesis\index.html is referenced in dist\Sponsors\index.html but was not found.
+2021-09-17 19:15:43,296 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors/Link-goes-in-parenthesis in Sponsors\index.html.
+2021-09-17 19:15:43,296 : WARNING : iGEM_URL : dist\Sponsors\google.com is referenced in dist\Sponsors\index.html but was not found.
+2021-09-17 19:15:43,297 : WARNING : iGEM_URL : google.com is referenced in Sponsors\index.html but was not found.
+2021-09-17 19:15:43,304 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Sponsors\index.html.
+2021-09-17 19:15:44,188 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Sponsors&action=edit.
+2021-09-17 19:15:44,205 : INFO : iGEM_URL : ../css/team.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/teamCSS?action=raw&ctype=text/css in Team\index.html.
+2021-09-17 19:15:44,206 : INFO : iGEM_URL : ../team.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/team-bundleJS?action=raw&ctype=text/javascript in Team\index.html.
+2021-09-17 19:15:44,207 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Team\index.html.
+2021-09-17 19:15:44,207 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Team\index.html.
+2021-09-17 19:15:44,207 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Team\index.html.
+2021-09-17 19:15:44,208 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Team\index.html.
+2021-09-17 19:15:44,208 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Team\index.html.
+2021-09-17 19:15:44,208 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Team\index.html.
+2021-09-17 19:15:44,209 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Team\index.html.
+2021-09-17 19:15:44,209 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Team\index.html.
+2021-09-17 19:15:44,210 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Team\index.html.
+2021-09-17 19:15:44,210 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Team\index.html.
+2021-09-17 19:15:44,210 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Team\index.html.
+2021-09-17 19:15:44,211 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Team\index.html.
+2021-09-17 19:15:44,211 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Team\index.html.
+2021-09-17 19:15:44,211 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Team\index.html.
+2021-09-17 19:15:44,212 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Team\index.html.
+2021-09-17 19:15:44,212 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Team\index.html.
+2021-09-17 19:15:44,212 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Team\index.html.
+2021-09-17 19:15:44,213 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Team\index.html.
+2021-09-17 19:15:44,213 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Team\index.html.
+2021-09-17 19:15:44,214 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Team\index.html.
+2021-09-17 19:15:44,214 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Team\index.html.
+2021-09-17 19:15:44,214 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Team\index.html.
+2021-09-17 19:15:44,215 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Team\index.html.
+2021-09-17 19:15:44,215 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Team\index.html.
+2021-09-17 19:15:44,219 : INFO : iGEM_URL : ../assets/img/Team.jpg was changed to https://2021.igem.org/wiki/images/0/08/T--UNILA_LatAm--img--Team.jpg in Team\index.html.
+2021-09-17 19:15:44,219 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,220 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,221 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,221 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,221 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,222 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,222 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:44,222 : INFO : iGEM_URL : ../assets/img/Team--member.jpeg was changed to https://2021.igem.org/wiki/images/6/61/T--UNILA_LatAm--img--Team--member.jpeg in Team\index.html.
+2021-09-17 19:15:45,171 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Team&action=edit.
+2021-09-17 19:15:45,198 : INFO : iGEM_URL : ../css/content.css was changed to https://2021.igem.org/Template:UNILA_LatAm/css/contentCSS?action=raw&ctype=text/css in Toehold_Switch\index.html.
+2021-09-17 19:15:45,199 : INFO : iGEM_URL : ../content.bundle.js was changed to https://2021.igem.org/Template:UNILA_LatAm/content-bundleJS?action=raw&ctype=text/javascript in Toehold_Switch\index.html.
+2021-09-17 19:15:45,200 : INFO : iGEM_URL : /Description was changed to https://2021.igem.org/Team:UNILA_LatAm/Description in Toehold_Switch\index.html.
+2021-09-17 19:15:45,200 : INFO : iGEM_URL : /Design was changed to https://2021.igem.org/Team:UNILA_LatAm/Design in Toehold_Switch\index.html.
+2021-09-17 19:15:45,201 : INFO : iGEM_URL : /Background was changed to https://2021.igem.org/Team:UNILA_LatAm/Background in Toehold_Switch\index.html.
+2021-09-17 19:15:45,201 : INFO : iGEM_URL : /Paratransgenesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Paratransgenesis in Toehold_Switch\index.html.
+2021-09-17 19:15:45,202 : INFO : iGEM_URL : /Description1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Description1 in Toehold_Switch\index.html.
+2021-09-17 19:15:45,202 : INFO : iGEM_URL : /Design1 was changed to https://2021.igem.org/Team:UNILA_LatAm/Design1 in Toehold_Switch\index.html.
+2021-09-17 19:15:45,202 : INFO : iGEM_URL : /Toehold_Switch was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch in Toehold_Switch\index.html.
+2021-09-17 19:15:45,203 : INFO : iGEM_URL : /Modeling was changed to https://2021.igem.org/Team:UNILA_LatAm/Modeling in Toehold_Switch\index.html.
+2021-09-17 19:15:45,203 : INFO : iGEM_URL : /Demonstrate was changed to https://2021.igem.org/Team:UNILA_LatAm/Demonstrate in Toehold_Switch\index.html.
+2021-09-17 19:15:45,203 : INFO : iGEM_URL : /Notebook was changed to https://2021.igem.org/Team:UNILA_LatAm/Notebook in Toehold_Switch\index.html.
+2021-09-17 19:15:45,204 : INFO : iGEM_URL : /Protocols was changed to https://2021.igem.org/Team:UNILA_LatAm/Protocols in Toehold_Switch\index.html.
+2021-09-17 19:15:45,204 : INFO : iGEM_URL : /Parts was changed to https://2021.igem.org/Team:UNILA_LatAm/Parts in Toehold_Switch\index.html.
+2021-09-17 19:15:45,205 : INFO : iGEM_URL : /Safety was changed to https://2021.igem.org/Team:UNILA_LatAm/Safety in Toehold_Switch\index.html.
+2021-09-17 19:15:45,205 : INFO : iGEM_URL : /Integrated_Human_Practices was changed to https://2021.igem.org/Team:UNILA_LatAm/Integrated_Human_Practices in Toehold_Switch\index.html.
+2021-09-17 19:15:45,205 : INFO : iGEM_URL : /Education_&_Public_Engagement was changed to https://2021.igem.org/Team:UNILA_LatAm/Education_&_Public_Engagement in Toehold_Switch\index.html.
+2021-09-17 19:15:45,206 : INFO : iGEM_URL : /Implementation was changed to https://2021.igem.org/Team:UNILA_LatAm/Implementation in Toehold_Switch\index.html.
+2021-09-17 19:15:45,206 : INFO : iGEM_URL : /Fighting_Underreporting was changed to https://2021.igem.org/Team:UNILA_LatAm/Fighting_Underreporting in Toehold_Switch\index.html.
+2021-09-17 19:15:45,206 : INFO : iGEM_URL : /Funding was changed to https://2021.igem.org/Team:UNILA_LatAm/Funding in Toehold_Switch\index.html.
+2021-09-17 19:15:45,207 : INFO : iGEM_URL : /Team was changed to https://2021.igem.org/Team:UNILA_LatAm/Team in Toehold_Switch\index.html.
+2021-09-17 19:15:45,207 : INFO : iGEM_URL : /Attributions was changed to https://2021.igem.org/Team:UNILA_LatAm/Attributions in Toehold_Switch\index.html.
+2021-09-17 19:15:45,208 : INFO : iGEM_URL : /Collaborations was changed to https://2021.igem.org/Team:UNILA_LatAm/Collaborations in Toehold_Switch\index.html.
+2021-09-17 19:15:45,208 : INFO : iGEM_URL : /Sponsors was changed to https://2021.igem.org/Team:UNILA_LatAm/Sponsors in Toehold_Switch\index.html.
+2021-09-17 19:15:45,209 : INFO : iGEM_URL : /Medal_criteria was changed to https://2021.igem.org/Team:UNILA_LatAm/Medal_criteria in Toehold_Switch\index.html.
+2021-09-17 19:15:45,209 : INFO : iGEM_URL : /Special_prizes was changed to https://2021.igem.org/Team:UNILA_LatAm/Special_prizes in Toehold_Switch\index.html.
+2021-09-17 19:15:45,210 : WARNING : iGEM_URL : dist\Toehold_Switch\Link-goes-in-parenthesis\index.html is referenced in dist\Toehold_Switch\index.html but was not found.
+2021-09-17 19:15:45,210 : INFO : iGEM_URL : Link-goes-in-parenthesis was changed to https://2021.igem.org/Team:UNILA_LatAm/Toehold_Switch/Link-goes-in-parenthesis in Toehold_Switch\index.html.
+2021-09-17 19:15:45,211 : WARNING : iGEM_URL : dist\Toehold_Switch\google.com is referenced in dist\Toehold_Switch\index.html but was not found.
+2021-09-17 19:15:45,211 : WARNING : iGEM_URL : google.com is referenced in Toehold_Switch\index.html but was not found.
+2021-09-17 19:15:45,218 : INFO : iGEM_URL : ../assets/img/Description--josh-withers.jpg was changed to https://2021.igem.org/wiki/images/3/3f/T--UNILA_LatAm--img--Description--josh-withers.jpg in Toehold_Switch\index.html.
+2021-09-17 19:15:46,416 : INFO : iGEM_upload_page : Uploaded to https://2021.igem.org/wiki/index.php?title=Team:UNILA_LatAm/Toehold_Switch&action=edit.
+2021-09-17 19:15:46,422 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2021.igem.org/wiki/images/a/ae/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css\content.css.
+2021-09-17 19:15:46,422 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2021.igem.org/wiki/images/1/1e/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css\content.css.
+2021-09-17 19:15:46,423 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/d/d5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css\content.css.
+2021-09-17 19:15:46,424 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2021.igem.org/wiki/images/e/ed/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css\content.css.
+2021-09-17 19:15:46,424 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2021.igem.org/wiki/images/b/b3/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css\content.css.
+2021-09-17 19:15:46,425 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2021.igem.org/wiki/images/c/c5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css\content.css.
+2021-09-17 19:15:46,425 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2021.igem.org/wiki/images/9/9b/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css\content.css.
+2021-09-17 19:15:46,426 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2021.igem.org/wiki/images/b/bd/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css\content.css.
+2021-09-17 19:15:46,426 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2021.igem.org/wiki/images/e/e3/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css\content.css.
+2021-09-17 19:15:46,427 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2021.igem.org/wiki/images/8/88/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css\content.css.
+2021-09-17 19:15:46,427 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/7/72/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css\content.css.
+2021-09-17 19:15:46,428 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2021.igem.org/wiki/images/d/d2/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css\content.css.
+2021-09-17 19:15:46,428 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2021.igem.org/wiki/images/a/a1/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.eot in css\content.css.
+2021-09-17 19:15:46,429 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2021.igem.org/wiki/images/3/3b/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.woff in css\content.css.
+2021-09-17 19:15:46,429 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2021.igem.org/wiki/images/4/45/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css\content.css.
+2021-09-17 19:15:46,429 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2021.igem.org/wiki/images/d/dd/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.eot in css\content.css.
+2021-09-17 19:15:46,430 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2021.igem.org/wiki/images/2/22/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.woff in css\content.css.
+2021-09-17 19:15:46,431 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2021.igem.org/wiki/images/a/ab/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css\content.css.
+2021-09-17 19:15:46,431 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2021.igem.org/wiki/images/0/0f/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.svg in css\content.css.
+2021-09-17 19:15:46,431 : INFO : iGEM_URL : ../assets/icons/link-solid.svg was changed to https://2021.igem.org/wiki/images/8/87/T--UNILA_LatAm--icons--link-solid.svg in css\content.css.
+2021-09-17 19:15:46,432 : INFO : build_and_upload : Contents of css\content.css have been uploaded previously. Skipping.
+2021-09-17 19:15:46,437 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2021.igem.org/wiki/images/a/ae/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css\index.css.
+2021-09-17 19:15:46,438 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2021.igem.org/wiki/images/1/1e/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css\index.css.
+2021-09-17 19:15:46,438 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/d/d5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css\index.css.
+2021-09-17 19:15:46,439 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2021.igem.org/wiki/images/e/ed/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css\index.css.
+2021-09-17 19:15:46,439 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2021.igem.org/wiki/images/b/b3/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css\index.css.
+2021-09-17 19:15:46,440 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2021.igem.org/wiki/images/c/c5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css\index.css.
+2021-09-17 19:15:46,441 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2021.igem.org/wiki/images/9/9b/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css\index.css.
+2021-09-17 19:15:46,441 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2021.igem.org/wiki/images/b/bd/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css\index.css.
+2021-09-17 19:15:46,442 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2021.igem.org/wiki/images/e/e3/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css\index.css.
+2021-09-17 19:15:46,442 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2021.igem.org/wiki/images/8/88/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css\index.css.
+2021-09-17 19:15:46,443 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/7/72/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css\index.css.
+2021-09-17 19:15:46,443 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2021.igem.org/wiki/images/d/d2/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css\index.css.
+2021-09-17 19:15:46,444 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2021.igem.org/wiki/images/a/a1/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.eot in css\index.css.
+2021-09-17 19:15:46,444 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2021.igem.org/wiki/images/3/3b/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.woff in css\index.css.
+2021-09-17 19:15:46,445 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2021.igem.org/wiki/images/4/45/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css\index.css.
+2021-09-17 19:15:46,445 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2021.igem.org/wiki/images/d/dd/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.eot in css\index.css.
+2021-09-17 19:15:46,446 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2021.igem.org/wiki/images/2/22/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.woff in css\index.css.
+2021-09-17 19:15:46,446 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2021.igem.org/wiki/images/a/ab/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css\index.css.
+2021-09-17 19:15:46,447 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2021.igem.org/wiki/images/0/0f/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.svg in css\index.css.
+2021-09-17 19:15:46,447 : INFO : build_and_upload : Contents of css\index.css have been uploaded previously. Skipping.
+2021-09-17 19:15:46,452 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.eot was changed to https://2021.igem.org/wiki/images/a/ae/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.eot in css\team.css.
+2021-09-17 19:15:46,453 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff was changed to https://2021.igem.org/wiki/images/1/1e/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.woff in css\team.css.
+2021-09-17 19:15:46,453 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/d/d5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.ttf in css\team.css.
+2021-09-17 19:15:46,454 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-regular.svg was changed to https://2021.igem.org/wiki/images/e/ed/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-regular.svg in css\team.css.
+2021-09-17 19:15:46,454 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.eot was changed to https://2021.igem.org/wiki/images/b/b3/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.eot in css\team.css.
+2021-09-17 19:15:46,455 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff was changed to https://2021.igem.org/wiki/images/c/c5/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.woff in css\team.css.
+2021-09-17 19:15:46,456 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.ttf was changed to https://2021.igem.org/wiki/images/9/9b/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.ttf in css\team.css.
+2021-09-17 19:15:46,456 : INFO : iGEM_URL : ../assets/fonts/montserrat-v14-latin/montserrat-v14-latin-600.svg was changed to https://2021.igem.org/wiki/images/b/bd/T--UNILA_LatAm--fonts--montserrat-v14-latin--montserrat-v14-latin-600.svg in css\team.css.
+2021-09-17 19:15:46,457 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.eot was changed to https://2021.igem.org/wiki/images/e/e3/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.eot in css\team.css.
+2021-09-17 19:15:46,458 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.woff was changed to https://2021.igem.org/wiki/images/8/88/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.woff in css\team.css.
+2021-09-17 19:15:46,458 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.ttf was changed to https://2021.igem.org/wiki/images/7/72/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.ttf in css\team.css.
+2021-09-17 19:15:46,459 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-regular.svg was changed to https://2021.igem.org/wiki/images/d/d2/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-regular.svg in css\team.css.
+2021-09-17 19:15:46,459 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.eot was changed to https://2021.igem.org/wiki/images/a/a1/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.eot in css\team.css.
+2021-09-17 19:15:46,459 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.woff was changed to https://2021.igem.org/wiki/images/3/3b/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.woff in css\team.css.
+2021-09-17 19:15:46,460 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-300.ttf was changed to https://2021.igem.org/wiki/images/4/45/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-300.ttf in css\team.css.
+2021-09-17 19:15:46,460 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.eot was changed to https://2021.igem.org/wiki/images/d/dd/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.eot in css\team.css.
+2021-09-17 19:15:46,461 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.woff was changed to https://2021.igem.org/wiki/images/2/22/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.woff in css\team.css.
+2021-09-17 19:15:46,461 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.ttf was changed to https://2021.igem.org/wiki/images/a/ab/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.ttf in css\team.css.
+2021-09-17 19:15:46,462 : INFO : iGEM_URL : ../assets/fonts/lato-v16-latin/lato-v16-latin-700.svg was changed to https://2021.igem.org/wiki/images/0/0f/T--UNILA_LatAm--fonts--lato-v16-latin--lato-v16-latin-700.svg in css\team.css.
+2021-09-17 19:15:46,462 : INFO : build_and_upload : Contents of css\team.css have been uploaded previously. Skipping.
+2021-09-17 19:15:46,622 : INFO : build_and_upload : Contents of content.bundle.js have been uploaded previously. Skipping.
+2021-09-17 19:15:46,781 : INFO : build_and_upload : Contents of index.bundle.js have been uploaded previously. Skipping.
+2021-09-17 19:15:46,939 : INFO : build_and_upload : Contents of team.bundle.js have been uploaded previously. Skipping.
